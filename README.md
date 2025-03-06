@@ -9,11 +9,16 @@ This project focuses on predicting the Air Quality Index (AQI) using machine lea
 
 Among these, **Random Forest** was found to be the most effective model due to its high R-squared value and low Mean Squared Error (MSE) compared to the others.
 
+## Dataset
+- **Source:** Public air quality monitoring data (`city_day.csv`).
+- Contains air quality parameters also known as 'Pollutants' such as PM2.5, PM10, NO, NOX, CO, NO2, SO2, O3, Benzene, Toluene, Xylene.
+
+
 ## Features
 - **Real-time AQI Prediction** using trained models
 - **Data Preprocessing** for handling missing values and outliers
 - **Model Training & Evaluation** to select the best-performing algorithm
-- **Integration with WAQI API** to fetch real-time air quality data
+- **Integration with WAQI API** to fetch real-time air quality data for any major stations/cities
 
 ## Technologies Used
 - **Python** (pandas, numpy, scikit-learn, matplotlib, seaborn)
@@ -24,19 +29,20 @@ Among these, **Random Forest** was found to be the most effective model due to i
 ## Model Training & Selection
 - The `Air_Quality_Prediction` notebook handles data cleaning and model training.
 - The final trained Random Forest model is saved as `random_forest_model.pkl`.
-- Other models can also be used for evaluation and comparison.
+- Other models can also be used for evaluation and comparison based on any feature selection.
 
 ## Real-Time AQI Prediction
 By integrating with the **WAQI Weather API**, the trained model can predict AQI for major cities in real-time with high accuracy.
 
 ## Using Pretrained Model
 In order to run the model directly without going through the preprocessing and training phase, the Random Forest model can be downloaded from the repository releases:  
-[Pretrained Model Download](https://github.com/AlwaysRead/AQI-Predictor/releases/tag/v1.0)  
-and used directly as pretrained data.
+[Pretrained Model Download](https://github.com/AlwaysRead/AQI-Predictor/releases/tag/v1.0) and used directly as pretrained data.
 
-## Dataset
-- **Source:** Public air quality monitoring data (`city_day.csv`).
-- Contains air quality parameters such as PM2.5, PM10, CO, NO2, SO2, and O3.
+
+
+## Comparison
+Real Time AQI Value and Predicted AQI
+
 
 ## Future Enhancements
 - Implement deep learning models for improved accuracy.
