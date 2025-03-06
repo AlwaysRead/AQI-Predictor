@@ -21,7 +21,7 @@ Among these, **Random Forest** was found to be the most effective model due to i
 - **Integration with WAQI API** to fetch real-time air quality data for any major stations/cities
 
 ## Technologies Used
-- **Python** (pandas, numpy, scikit-learn, matplotlib, seaborn)
+- **Python** (pandas, numpy, scikit-learn, matplotlib, seaborn, xgboost, lightgbm, pickle )
 - **Machine Learning Models** (Random Forest, Gradient Boosting, etc.)
 - **Jupyter Notebook** for model development
 - **WAQI API** for real-time AQI data retrieval
