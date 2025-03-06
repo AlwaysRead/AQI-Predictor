@@ -36,12 +36,16 @@ By integrating with the **WAQI Weather API**, the trained model can predict AQI 
 
 ## Using Pretrained Model
 In order to run the model directly without going through the preprocessing and training phase, the Random Forest model can be downloaded from the repository releases:  
-[Pretrained Model Download](https://github.com/AlwaysRead/AQI-Predictor/releases/tag/v1.0) and used directly as pretrained data.
+[Pretrained Model Download](https://github.com/AlwaysRead/AQI-Predictor/releases/tag/v1.0) and used directly as pretrained model.
 
+## Comparison  
+### Real-Time AQI Value and Predicted AQI Value 
 
+![Real-Time AQI](images/real_time_aqi.png)  
+*Figure 1: Real-Time AQI*  
 
-## Comparison
-Real Time AQI Value and Predicted AQI
+![Predicted AQI](images/predicted_aqi.png)  
+*Figure 2: Predicted AQI*
 
 
 ## Future Enhancements
