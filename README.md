@@ -39,13 +39,13 @@ In order to run the model directly without going through the preprocessing and t
 [Pretrained Model Download](https://github.com/AlwaysRead/AQI-Predictor/releases/tag/v1.0) and used directly as pretrained model.
 
 ## Comparison  
+## Comparison  
 ### Real-Time AQI Value and Predicted AQI Value 
 
-![Real-Time AQI](images/real_time_aqi.png)  
-*Figure 1: Real-Time AQI*  
-
-![Predicted AQI](images/predicted_aqi.png)  
-*Figure 2: Predicted AQI*
+<p align="center">
+  <img src="images/real_time_aqi.png" alt="Real-Time AQI" width="45%"/>
+  <img src="images/predicted_aqi.png" alt="Predicted AQI" width="45%"/>
+</p>
 
 
 ## Future Enhancements
