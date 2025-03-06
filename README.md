@@ -42,10 +42,13 @@ In order to run the model directly without going through the preprocessing and t
 ## Comparison  
 ### Real-Time AQI Value and Predicted AQI Value 
 
-<p align="center">
-  <img src="images/real_time_aqi.png" alt="Real-Time AQI" width="45%"/>
-  <img src="images/predicted_aqi.png" alt="Predicted AQI" width="45%"/>
-</p>
+## Comparison  
+### Real-Time AQI Value and Predicted AQI  
+
+| Real-Time AQI | Predicted AQI |
+|--------------|--------------|
+| ![Real-Time AQI](images/real_time_aqi.png) | ![Predicted AQI](images/predicted_aqi.png) |
+
 
 
 ## Future Enhancements
