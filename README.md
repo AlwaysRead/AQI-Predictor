@@ -34,6 +34,11 @@ Among these, **Random Forest** was found to be the most effective model due to i
 ## Real-Time AQI Prediction
 By integrating with the **WAQI Weather API**, the trained model can predict AQI for major cities in real-time with high accuracy.
 
+## Flow Diagram
+
+![Flow Diagram](images/Diagram.png)
+
+
 ## Installation
 
 ### 1. Clone the Repository
