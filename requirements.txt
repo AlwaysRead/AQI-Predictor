@@ -2,3 +2,4 @@ requests
 joblib
 numpy
 scikit-learn
+uvicorn
