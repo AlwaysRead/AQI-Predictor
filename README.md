@@ -57,7 +57,7 @@ In order to run the model directly without going through the preprocessing and t
 - Introduce IoT-based real-time data collection.
 
 ## Website Release
-![Binary Brains AQI](https://binarybrainsaqi.netlify.app/)
+[Binary Brains AQI](https://binarybrainsaqi.netlify.app/)
 
 ## Contact
 For queries or contributions email me at: chinmoysaikia61@gmail.com, feel free to reach out or create an issue in the repository.
