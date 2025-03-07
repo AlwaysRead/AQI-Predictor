@@ -1,6 +1,8 @@
-requests
-joblib
 numpy
+pandas
+matplotlib
+seaborn
 scikit_learn
-uvicorn
-fastapi
+pickle
+request
+joblib
