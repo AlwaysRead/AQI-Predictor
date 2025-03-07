@@ -58,7 +58,7 @@ By integrating with the **WAQI Weather API**, the trained model can predict AQI 
 ### 3. Get API Keys
 
     WAQI API: Sign up at WAQI to get an API key.
-    Replace API_TOKEN in config.py or directly in the code.
+    Replace API_TOKEN in Air_Quality_prediction.ipynb.
     
 
 ## Deployment
