@@ -9,7 +9,6 @@ app = FastAPI()
 # Add CORS middleware
 origins = [
     "https://binarybrainsaqi.netlify.app",  # Allow your frontend to access the backend
-    "http://127.0.0.1:5173", # Another possible address for your frontend
 ]
 
 app.add_middleware(
