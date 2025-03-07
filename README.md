@@ -34,21 +34,33 @@ Among these, **Random Forest** was found to be the most effective model due to i
 ## Real-Time AQI Prediction
 By integrating with the **WAQI Weather API**, the trained model can predict AQI for major cities in real-time with high accuracy.
 
-## Using Pretrained Model
-In order to run the model directly without going through the preprocessing and training phase, the Random Forest model can be downloaded from the repository releases:  
-[Pretrained Model Download](https://github.com/AlwaysRead/AQI-Predictor/releases/tag/v1.0) and used directly as pretrained model.
+## Installation
 
-## Comparison  
-## Comparison  
-### Real-Time AQI Value and Predicted AQI Value 
+### 1. Clone the Repository
 
-## Comparison  
-### Real-Time AQI Value and Predicted AQI  
+    git clone https://github.com/yourusername/aqi-predictor.git
+    cd aqi-predictor
 
-| Real-Time AQI | Predicted AQI |
-|--------------|--------------|
-| ![Real-Time AQI](images/real_time_aqi.png) | ![Predicted AQI](images/predicted_aqi.png) |
+### 2. Install Dependencies
+#### Python Requirements
+    pip install -r requirements.txt
 
+#### Enable Git LFS for Large Model Files
+    git lfs install
+    git lfs track "*.pkl"
+    git add .gitattributes
+
+### 3. Get API Keys
+
+    WAQI API: Sign up at WAQI to get an API key.
+    Replace API_TOKEN in config.py or directly in the code.
+    
+
+## Deployment
+
+This project can be deployed using:
+   
+    Render with gunicorn -w 4 -b 0.0.0.0:$PORT aqi_predictor:app
 
 
 ## Future Enhancements
