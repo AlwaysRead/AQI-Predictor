@@ -39,10 +39,6 @@ In order to run the model directly without going through the preprocessing and t
 [Pretrained Model Download](https://github.com/AlwaysRead/AQI-Predictor/releases/tag/v1.0) and used directly as pretrained model.
 
 ## Comparison  
-## Comparison  
-### Real-Time AQI Value and Predicted AQI Value 
-
-## Comparison  
 ### Real-Time AQI Value and Predicted AQI  
 
 | Real-Time AQI | Predicted AQI |
@@ -53,7 +49,7 @@ In order to run the model directly without going through the preprocessing and t
 
 ## Future Enhancements
 - Implement deep learning models for improved accuracy.
-- Develop a web-based dashboard for real-time AQI monitoring.
+- Develop a web-based dashboard for real-time AQI monitoring. To learn how to deploy the model go to this repo https://github.com/AlphaCfter/binary-brains.git
 - Introduce IoT-based real-time data collection.
 
 ## Website Release
